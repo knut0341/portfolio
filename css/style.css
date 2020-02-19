@@ -1,0 +1,85 @@
+body {
+    font-family: "Open Sans", sans-serif; }
+  
+  h1, h2, h3 {
+    font-family: "Lobster", cursive; }
+  
+  h2 {
+    color: #3046C5; }
+  
+  header h2 {
+    color: #CEC8FF; }
+  
+  .site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0; }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+    color: white; }
+  
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; }
+  
+  .navbar {
+    background-color: #901CAD; }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
+  
+  .carousel {
+    border: solid #5637dd; }
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  
+    .site-logo {
+        width: 50px;
+        height: 50px;
+        display: block;
+        overflow: visible;
+        overflow-x: visible;
+        overflow-y: visible;
+        border: 5px solid #494c4e;
+        border-top-color: rgb(73, 76, 78);
+        border-top-style: solid;
+        border-top-width: 5px;
+        border-right-color: rgb(73, 76, 78);
+        border-right-style: solid;
+        border-right-width: 5px;
+        border-bottom-color: rgb(73, 76, 78);
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-left-color: rgb(73, 76, 78);
+        border-left-style: solid;
+        border-left-width: 5px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        position: relative;
+        transform: rotate(0deg);
+        transition: transform .4s ease-in-out;
+        transition-property: transform;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+        flex-shrink: 0;
+    }
+
+    .site-logo .logo-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) rotate(0deg);
+        transition: transform .4s ease-in-out;
+        font-weight: 700;
+        font-size: 13px;
+    }
