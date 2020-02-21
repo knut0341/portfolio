@@ -38,11 +38,44 @@
     </header>
     <body>
         <div class="container">
-            <div class="row row-content">
+ 
+            <div class="row row-container">
                 <div class="col-12">
-                <h2>What can I do? </h2>
+                    <h2>What can I do?</h2>
+                    <div id="accordion">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#dev">
+                                    Full Stack Web Development
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="dev" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">Web development skills</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h4>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#qa">
+                                        Software Quality Assurance 
+                                    </a>
+                                </h4>
+                                <div class="collapse" id="qa" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block">lots of QA Experience</p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div>     
+            <div class="row row-container">
+                <div class="col-12">
+                    <a role="button" class="btn btn-link" href="pdf_location"><i class="fa fa-file-pdf-o"></i> Resume</a>
+                    
         </div>
     </body>
 
