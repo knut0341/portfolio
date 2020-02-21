@@ -1,17 +1,29 @@
 body {
     font-family: "Source Sans Pro", sans-serif; }
   
-  h1 {
+  h1, h2 {
     font-family: "Merriweather"; }
   
-  h2 {
-    color: #3046C5; }
+
   
   header h2 {
     color: #CEC8FF; }
   
+  .btn-primary {
+    background-color:  #82716e;
+    border-color: #82716e;
+  }
+
+  .btn-link {
+    color: #82716e;
+  }
+
+  .btn-social-icon{
+    color: #82716e;
+  }
+
   .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#e4decd, white);
     padding: 20px 0; }
   
   .jumbotron {
@@ -26,7 +38,7 @@ body {
     min-height: 200px; }
   
   .navbar {
-    background-color: #901CAD; 
+    background-color: #acb7ae; 
     
   }
 
@@ -49,17 +61,17 @@ body {
         overflow: visible;
         overflow-x: visible;
         overflow-y: visible;
-        border: 5px solid #494c4e;
-        border-top-color: rgb(73, 76, 78);
+        border: 5px solid #82716e;
+        border-top-color: #82716e;
         border-top-style: solid;
         border-top-width: 5px;
-        border-right-color: rgb(73, 76, 78);
+        border-right-color: #82716e;
         border-right-style: solid;
         border-right-width: 5px;
-        border-bottom-color: rgb(73, 76, 78);
+        border-bottom-color: #82716e;
         border-bottom-style: solid;
         border-bottom-width: 5px;
-        border-left-color: rgb(73, 76, 78);
+        border-left-color: #82716e;
         border-left-style: solid;
         border-left-width: 5px;
         border-image-source: initial;
@@ -85,4 +97,5 @@ body {
         transition: transform .4s ease-in-out;
         font-weight: 700;
         font-size: 13px;
+        color: #82716e;
     }
