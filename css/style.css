@@ -1,10 +1,12 @@
 body {
-    font-family: "Source Sans Pro", sans-serif; }
+    font-family: "Source Sans Pro", sans-serif; 
+    }
   
   h1, h2 {
-    font-family: "Merriweather"; }
+    font-family: "Merriweather"; 
+    }
   
-
+  
   
   header h2 {
     color: #CEC8FF; }
@@ -39,7 +41,7 @@ body {
   
   .navbar {
     background-color: #acb7ae; 
-    
+  
   }
 
 
