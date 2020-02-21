@@ -1,7 +1,7 @@
 body {
     font-family: "Source Sans Pro", sans-serif; }
   
-  h1, h2, h3 {
+  h1 {
     font-family: "Merriweather"; }
   
   h2 {
@@ -26,8 +26,11 @@ body {
     min-height: 200px; }
   
   .navbar {
-    background-color: #901CAD; }
-  
+    background-color: #901CAD; 
+    
+  }
+
+
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); }
   
@@ -39,7 +42,7 @@ body {
     right: 0;
     bottom: 0; }
   
-    .site-logo {
+  .site-logo {
         width: 50px;
         height: 50px;
         display: block;
@@ -74,7 +77,7 @@ body {
         flex-shrink: 0;
     }
 
-    .site-logo .logo-text {
+  .site-logo .logo-text {
         position: absolute;
         top: 50%;
         left: 50%;
