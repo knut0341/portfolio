@@ -25,16 +25,15 @@ body {
   }
 
   .site-footer {
-    background-image: linear-gradient(#e4decd, white);
-    padding: 20px 0; 
-    height: 100%;
+    background-color:#e4decd;
+    flex: 0 0 auto;
+    display: flex;
+    position: bottom;
+    width: 100%;
+    
     }
   
-  .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-    color: white; }
+
   
   .row-content {
     padding: 50px 0;
@@ -46,17 +45,8 @@ body {
   
   }
 
-  .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); }
   
-  .carousel {
-    border: solid #5637dd; }
-  
-  #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0; }
-  
+    
   .site-logo {
         width: 50px;
         height: 50px;
@@ -92,13 +82,28 @@ body {
         flex-shrink: 0;
     }
 
-  .site-logo .logo-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%) rotate(0deg);
+    .site-logo .logo-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%) rotate(0deg);
+          transition: transform .4s ease-in-out;
+          font-weight: 700;
+          font-size: 13px;
+          color: #82716e;
+      }
+      .site-logo:hover {
+        opacity: 1;
+        transform: rotate(-90deg);
         transition: transform .4s ease-in-out;
-        font-weight: 700;
-        font-size: 13px;
-        color: #82716e;
+        }
+    .site-logo:hover .logo-text{
+      transform: translate(-50%,-50%);
+      rotate: (90deg);
+      transform-origin: center;
+    }
+    .site-logo:hover #logo-stroke{
+      transform: rotate(-90deg);
+      transform-origin: center center;
+      transition:transform .5s ease-in-out;
     }
