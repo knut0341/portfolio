@@ -54,66 +54,14 @@ footer {
 
   
     
-  .site-logo {
-        width: 50px;
-        height: 50px;
-        display: block;
-        overflow: visible;
-        overflow-x: visible;
-        overflow-y: visible;
-        border: 5px solid #82716e;
-        border-top-color: #82716e;
-        border-top-style: solid;
-        border-top-width: 5px;
-        border-right-color: #82716e;
-        border-right-style: solid;
-        border-right-width: 5px;
-        border-bottom-color: #82716e;
-        border-bottom-style: solid;
-        border-bottom-width: 5px;
-        border-left-color: #82716e;
-        border-left-style: solid;
-        border-left-width: 5px;
-        border-image-source: initial;
-        border-image-slice: initial;
-        border-image-width: initial;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        position: relative;
-        transform: rotate(0deg);
-        transition: transform .4s ease-in-out;
-        transition-property: transform;
-        transition-duration: 0.4s;
-        transition-timing-function: ease-in-out;
-        transition-delay: 0s;
-        flex-shrink: 0;
-    }
+  
 
-    .site-logo .logo-text {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%,-50%) rotate(0deg);
-          transition: transform .4s ease-in-out;
-          font-weight: 700;
-          font-size: 13px;
-          color: #82716e;
-      }
-      .site-logo:hover {
-        opacity: 1;
-        transform: rotate(-90deg);
-        transition: transform .4s ease-in-out;
-        }
+.site-logo{width:50px;height:50px;display:block;overflow:visible;border:5px solid #494c4e;position:relative;transform:rotate(0deg);transition:transform .4s ease-in-out;flex-shrink:0}
 
-      .site-logo:hover .logo-text{
-        transform: translate(-50%,-50%);
-        rotate: (90deg);
-        transform-origin: center;
-        }
+.site-logo .logo-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(0deg);transition:transform .4s ease-in-out;font-weight:700;font-size:13px; color: #494c4e}
 
+.site-logo:hover{opacity:1;transform:rotate(-90deg);transition:transform .4s ease-in-out}
 
-    .site-logo:hover #logo-stroke{
-      transform: rotate(-90deg);
-      transform-origin: center center;
-      transition:transform .5s ease-in-out;
-    }
+.site-logo:hover .logo-text{transform:translate(-50%,-50%) rotate(90deg);transform-origin:center}
+
+.site-logo:hover #logo-stroke{transform:rotate(-90deg);transform-origin:center center;transition:transform .5s ease-in-out}
